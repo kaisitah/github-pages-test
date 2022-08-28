@@ -17,8 +17,11 @@
             
             p {
                 font-size: 15px;
-                font-style: italic;
+                <!-- font-style: italic; -->
                 color: rgb(70, 100, 210);
+            }
+            .post-time {
+                font-size: 11 px;
             }
         </style>
     </head>
@@ -26,38 +29,66 @@
         
         <h1>Kaisa learns to code</h1>
 
-        <h3>Contents</h3>
-        <ul>
-            <li><a href="#post1">First post</a></li>
-            <li><a href="#post2">Second post</a></li>
-        </ul>
+        <!--Insert a picture here <img src="" alt=""> -->
         
-        <h2 id="post1">First post</h2>
-        <h6>Posted on Friday August 5, 2022</h6>
-        
-        <p>For the first time I started a blog for which I'm writing the HTML and CSS code myself!<br>
-        <br>
-        I am self-studying the use of web development tools such as HTML, CSS and JavaScript. I use several web resources 
-        such as <a href="https://www.khanacademy.org">Khan Academy</a> courses, <a href="https://code.org/learn">Hour of Code</a> challenges, 
-        <a href="https://developer.mozilla.org">Mozilla Developer Network</a>, and more, for my studies.<br>
-        <br>
-        In Khan Academy, I started with the course "Intro to HTML/CSS: Making webpages". I have learned the basics of HTML and CSS styling. 
-        My projects include simple webpages such as travel page, recipe book and now this blog. There is still a lot to learn about styling the sites 
-        so they are not in their prettiest shape yet :-D.
-        </p>
-        
-        <h2 id="post2">Second post</h2>
-        <h6>Posted on Monday August 8, 2022</h6>
-        
-        <p>After a day off, refilling my energy in the nature, I got back to learning to code. Today I explored a few learning platforms or materials 
-        in JavaScript.<br> 
-        <br> 
-        <a href="https://learnprogramming.online/">LearnProgramming.online</a> is a great platform to learn the basics of JavaScript. 
-        It presents the key concepts in a consice and precise way, along with matching exercises to practice my new skills. 
-        I learned to define and call functions!<br> 
-        <br>
-        I also had fun with playing games that test your understanding of code. You may want to check <a href="http://www.toxicode.fr/learn">these</a> out, too! :-)
-        </p>
-        
+        <div>
+            <h2>Contents</h2>
+            <ul>
+                <li><a href="#post1">First post</a></li>
+                <li><a href="#post2">Second post</a></li>
+                <li><a href="#post3">Going Live!</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="post1">First post</h2>
+            <p class="post-time">Posted on Friday August 5, 2022</p>
+            <p>
+                For the first time I started a blog for which I'm writing the HTML and CSS code myself!
+            </p>
+            <p>
+                I am self-studying the use of web development tools such as HTML, CSS and JavaScript. I use several web resources 
+                such as <a href="https://www.khanacademy.org">Khan Academy</a> courses, <a href="https://code.org/learn">Hour of Code</a> challenges, 
+                <a href="https://developer.mozilla.org">Mozilla Developer Network</a>, and more, for my studies.
+            </p>
+            <p>
+                In <em>Khan Academy</em>, I started with the course "Intro to HTML/CSS: Making webpages". I have learned the basics of HTML and CSS styling. 
+                My projects include simple webpages such as travel page, recipe book and now this blog. There is still a lot to learn about styling the sites 
+                so they are not in their prettiest shape yet :-D.
+            </p>
+        </div>
+        <div>
+            <h2 id="post2">Second post</h2>
+            <p class="post-time">Posted on Monday August 8, 2022</p>
+            <p>
+               After a day off, refilling my energy in the nature, I got back to learning to code. Today I explored a few learning platforms or materials 
+               in JavaScript.
+            </p>
+            <p>
+                <a href="https://learnprogramming.online/">LearnProgramming.online</a> is a great platform to learn the basics of JavaScript. 
+                It presents the key concepts in a consice and precise way, along with matching exercises to practice my new skills. 
+                I learned to define and call functions!
+            </p>
+            <p>
+                I also had fun with playing games that test your understanding of code. You may want to check <a href="http://www.toxicode.fr/learn">these Toxicode games</a> out, too! :-)
+            </p>
+        </div>
+        <div>
+            <h2 id="post3">Going Live: Publishing my blog on GitHub Pages</h2>
+            <p class="post-time">Posted on Sunday August 28, 2022</p>
+            <p>
+                I needed to have a break in my programming exercises because of getting ill and starting at a new job. 
+                Luckily my new job is related to programming, so I didn't forget everything I had learned before the break!
+            </p>
+            <p>
+               Finally I had time to try something really exciting: publish a webpage I had created within Khan Academy as a public page on GitHub Pages! 
+               It was not the first index.html file I ever created but maybe the third one or so. I copy-pasted the source code of my learning blog webpage from Khan Academy.
+               While I was at it, I decided to add some elements to the head of the site as well as add some clarity to my code with indentation. 
+            </p>
+            <p>
+               I must say that the work I did with indenting the code really paid off: Now it's much easier to keep writing the blog and polish the style of the website.
+               Another note about structure. The usage of <div> element is still a bit blurry for me, but I came up with one clear way of using it: 
+               I added some structure to my blog by defining each of the posts as a separate <em>"content division element"</em>.
+            </p>    
+        </div>
     </body>
 </html>
