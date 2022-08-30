@@ -1,0 +1,19 @@
+            body {
+                font-family: "Courier", monospace;
+                background-color: white;
+            }
+            
+            h1 {
+                color: rgb(100, 100, 200);
+                font-weight: bold;
+            }
+            
+            p {
+                font-size: 15px;
+                /* font-style: italic; */
+                color: rgb(70, 100, 210);
+            }
+            .post-time {
+                font-size: 12px;
+                font-style: italic;
+            }
