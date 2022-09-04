@@ -2,6 +2,11 @@
                 font-family: "Courier", monospace;
                 background-color: white;
             }
+            div {
+                border-bottom: dashed 1.2px black;
+                padding: 1em;
+                margin: 2em;        
+            }
             
             h1 {
                 color: rgb(100, 100, 200);
