@@ -23,11 +23,14 @@
                 /* font-style: italic; */
                 color: rgb(70, 100, 210);
             }
+            img {
+                width: 100%;
+            }
             .post-time {
                 font-size: 12px;
                 font-style: italic;
             }
-            .figure {
+            .image {
                 width: 300px;
                 float: right;
             }
