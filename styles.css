@@ -5,12 +5,17 @@
             div {
                 border-bottom: dashed 1.2px black;
                 padding: 1em;
+                padding-top: 0;        
                 margin: 2em;        
             }
             
             h1 {
                 color: rgb(100, 100, 200);
                 font-weight: bold;
+                margin: 2em;
+            }
+            h2 {
+                margin-top:0;
             }
             
             p {
@@ -21,4 +26,8 @@
             .post-time {
                 font-size: 12px;
                 font-style: italic;
+            }
+            .figure {
+                width: 300px;
+                float: right;
             }
